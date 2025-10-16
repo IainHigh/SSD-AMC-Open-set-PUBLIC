@@ -1,0 +1,14 @@
+# Core scientific stack
+numpy
+scipy
+matplotlib
+seaborn
+tqdm
+scikit-learn
+adjustText
+SigMF==1.1.1
+
+# PyTorch
+torch
+torchvision
+torchaudio

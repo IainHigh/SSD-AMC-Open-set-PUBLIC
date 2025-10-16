@@ -1,0 +1,41 @@
+{
+  "n_captures": 50000,
+  "n_samps": 4096,
+  "modulation": [
+    "4ask",
+    "8ask",
+    "bpsk",
+    "qpsk",
+    "8psk",
+    "16psk",
+    "32psk",
+    "16apsk",
+    "32apsk",
+    "64apsk",
+    "128apsk",
+    "16qam",
+    "32qam",
+    "64qam",
+    "128qam",
+    "256qam"
+  ],
+
+  "symbol_rate": 32,
+  "sampling_rate": 1e9,
+  "randomly_generated_center_frequencies": [40e6, 400e6, 4, 1],
+  "filter": [
+    {
+      "type": "rrc",
+      "beta": 0.35,
+      "delay": 1,
+      "dt": 0.0
+    }
+  ],
+  "channel": {
+    "type": "awgn",
+    "snr": [-20, 30, 2]
+  },
+  "savepath": "testing",
+  "verbose": 0,
+  "archive": false
+}
