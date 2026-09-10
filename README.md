@@ -1,5 +1,9 @@
 # Single-shot Detector for Joint Signal Detection and Modulation Classification with Open-set Recognition
 
+Link to full paper: https://ieeexplore.ieee.org/document/11675698
+
+DOI: https://doi.org/10.1109/RadarConf2663773.2026.11675698
+
 This repository contains all the code associated with the academic paper:
 "Single-shot Detector for Joint Signal Detection and Modulation Classification with Open-set Recognition"
 
